@@ -120,127 +120,14 @@ export const GalleryData = [
     title: "Department",
     image: "./images/Department/dept6.jpg",
   },
-  {
-    id: 7,
-    title: "Department",
-    image: "./images/Department/dept15.jpg",
-  },
+
   {
     id: 8,
     title: "Department",
     image: "./images/Department/dept8.jpg",
   },
-  {
-    id: 9,
-    title: "Department",
-    image: "./images/Department/dept9.jpg",
-  },
-  {
-    id: 10,
-    title: "Department",
-    image: "./images/Department/dept10.jpg",
-  },
-  {
-    id: 11,
-    title: "Department",
-    image: "./images/Department/dept11.jpg",
-  },
-  {
-    id: 12,
-    title: "Department",
-    image: "./images/Department/dept12.jpg",
-  },
-  {
-    id: 13,
-    title: "Department",
-    image: "./images/Department/dept13.jpg",
-  },
-  {
-    id: 14,
-    title: "Department",
-    image: "./images/Department/dept14.jpg",
-  },
-  {
-    id: 15,
-    title: "Department",
-    image: "./images/Department/dept15.jpg",
-  },
-  {
-    id: 15,
-    title: "Department",
-    image: "./images/Department/dept15.jpg",
-  },
-  // NSS photos
-  {
-    id: 16,
-    title: "NSS",
-    image: "./images/NSS/nss1.jpg",
-  },
-  {
-    id: 17,
-    title: "NSS",
-    image: "./images/NSS/nss2.jpg",
-  },
-  {
-    id: 18,
-    title: "NSS",
-    image: "./images/NSS/nss3.jpg",
-  },
-  {
-    id: 19,
-    title: "NSS",
-    image: "./images/NSS/nss4.jpg",
-  },
-  {
-    id: 20,
-    title: "NSS",
-    image: "./images/NSS/nss5.jpg",
-  },
-  {
-    id: 21,
-    title: "NSS",
-    image: "./images/NSS/nss6.jpg",
-  },
-  {
-    id: 22,
-    title: "NSS",
-    image: "./images/NSS/nss7.jpg",
-  },
-  {
-    id: 23,
-    title: "NSS",
-    image: "./images/NSS/nss8.jpg",
-  },
-  {
-    id: 24,
-    title: "NSS",
-    image: "./images/NSS/nss9.jpg",
-  },
-  {
-    id: 25,
-    title: "NSS",
-    image: "./images/NSS/nss10.jpg",
-  },
-  {
-    id: 27,
-    title: "NSS",
-    image: "./images/NSS/nss11.jpg",
-  },
-  {
-    id: 28,
-    title: "NSS",
-    image: "./images/NSS/nss12.jpg",
-  },
-  {
-    id: 29,
-    title: "NSS",
-    image: "./images/NSS/nss13.jpg",
-  },
-  {
-    id: 30,
-    title: "NSS",
-    image: "./images/NSS/nss14.jpg",
-  },
+
+ 
   {
     id: 31,
     title: "NSS",
@@ -271,11 +158,7 @@ export const GalleryData = [
     title: "NSS",
     image: "./images/NSS/nss20.jpg",
   },
-  {
-    id: 37,
-    title: "NSS",
-    image: "./images/NSS/nss21.jpg",
-  },
+
 
   //Faculty
   {
