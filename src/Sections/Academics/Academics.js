@@ -3,7 +3,7 @@ import './Academics.css';
 
 function Academics() {
   return (
-    <h1>Content will be update soon....</h1>
+    <h1>This page will be updated soon..</h1>
   );
 }
 
