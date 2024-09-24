@@ -1,0 +1,45 @@
+.breaking-news-section {
+    padding: 10px;
+    display: flex;
+    background-color: rgb(51, 232, 132);
+    align-items: center;
+    margin-bottom: -30px;
+}
+
+#btext {
+    width: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+i {
+    color: yellow;
+    font-size: 20px;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marquee-animation 8s linear infinite;
+}
+
+@keyframes marquee-animation {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

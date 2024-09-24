@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  align-items: center;
+  /* animation: 6s infinite; */
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.marq {
+  background-color: rgb(153, 174, 250);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+ 
+}
+
+#head {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
+
+#inputData {
+  width: fit-content;
+  height: fit-content;
+  height: 30px;
+  color: #336699;
+  outline-color: #000000;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+input{
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+#button1 {
+  width: fit-content;
+  height: fit-content;
+  padding:5px 15px;
+  width: 100px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: aquamarine;
+  border: none;
+  cursor: pointer;
+}
+
+.imm{
+  padding: 2px;
+  margin-left: 10px;
+  width: 258px;
+  height: 200px;
+}
+
+
+.cardd{
+  background-color: rgb(234, 166, 166);
+  list-style: none;
+}
+
+.cardd li{
+  list-style-type:none;
+}
+
+.cardd img{
+  padding: 20px;
+  width: 300px;
+  height: 260px;
+}
+
+
+
+.geek1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(52, 2, 117);
+  padding:20px;
+  justify-content: center;
+  background-color: #11dee9;
+  margin:10px;
+
+}
+.card {
+  margin: 30px;
+  padding: 10px;
+  text-align: start;
+  border: none;
+  background-color: rgb(237, 226, 236);
+  box-shadow: none;
+}
+
+.card img{
+  width: 300px;
+  height: 250px;
+  margin: auto 20px;
+}
+
+.card ul li {
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+}
+.student {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.details {
+  margin-top: 0px;
+  background-color: rgb(194, 249, 169);
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+}
+span {
+  font-size: medium;
+  font-weight: bolder;
+  align-self: start;
+  margin-right: 5px;
+}
+

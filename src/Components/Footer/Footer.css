@@ -1,0 +1,14 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(31, 47, 57);
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,112 @@
+/* Add your styling here */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dee4ee;
+    padding: 20px 80px 40px;
+    position: relative;
+    margin-bottom: 4px;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    margin: auto 10rem;
+    padding: 0;
+    flex-direction: row;
+    transition: all 0.3s ease;
+    max-height: 0;
+    gap: 40px;
+
+}
+
+.navbar-list.open {
+    max-height: 500px;
+    /* Adjust as needed */
+}
+
+.navbar-list {
+    margin-right: 20px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0f0b0b;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.navbar-list a:hover,
+.navbar-list a.active {
+    color: #17cf97;
+}
+
+.toggle-button {
+    cursor: pointer;
+    display: none;
+    /* Hide by default */
+}
+
+.navbar-list .name {
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    background-color: rgb(46, 131, 34);
+    color: #fff;
+    cursor: pointer;
+    /* justify-content: center; */
+}
+
+.navbar-list .name p {
+    margin-top: -10px;
+}
+
+.navbar-list .name:hover {
+    transform: scale(1.08);
+    background-color: #17cf97;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-list {
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #dee4ee;
+        overflow: hidden;
+    }
+
+    .navbar-list li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .open .navbar-list {
+        max-height: 900px;
+        padding-left: 17rem;
+    }
+
+    .toggle-button {
+        display: block;
+        /* Display toggle button in responsive mode */
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        z-index: 999;
+    }
+
+    .navbar-list button {
+        width: auto;
+        height: auto;
+        padding: 8px 15px;
+        margin: 3px 0;
+    }
+}

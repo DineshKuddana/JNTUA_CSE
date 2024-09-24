@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  animation: discoBackground 15s infinite alternate;
+}
+.Navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.App h1 {
+  width: 100%;
+  margin: 0;
+  margin-bottom: -100px;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(103, 103, 103);
+  cursor: pointer;
+  padding: 20px 0;
+}
+.App {
+  padding: 0;
+  margin: 0;
+  background:rgb(250, 237, 237);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.galleryItem img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.galleryContainer {
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  gap: 30px;
+}
+.galleryWrapper {
+  padding: 10% 10%;
+}
+
+.filterItem {
+  width: 100%;
+  /* background-color: brown; */
+  color: #fff;
+}
+.filterItem ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.filterItem ul button {
+  background: brown;
+  color: #fff;
+  padding: 5px 21px;
+  text-transform: uppercase;
+  border: navajowhite;
+  font-size: 17px;
+  border-radius: 5px;
+  /* border-radius: 50px; */
+}
+.filterItem ul button:hover {
+  background: #222;
+  cursor: pointer;
+}
+
+@keyframes discoBackground {
+  0% {
+    background-color: 0%;
+  }
+  25% {
+    background-color: 25%;
+  }
+  50% {
+    background-color: 50%;
+  }
+  75% {
+    background-color: 75%;
+  }
+  100% {
+    background-color: 100%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .App h1 {
+    font-size: 20px;
+  }
+  .filterItem ul {
+    max-width: 100%;
+  }
+  .galleryContainer {
+    justify-content: center;
+    margin-left: 50px;
+  }
+  .galleryItem img {
+    height: 150px;
+    width: 150px;
+  }
+  .filterItem ul button {
+    font-size: 10px;
+  }
+  .galleryContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+}

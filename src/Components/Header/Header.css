@@ -1,0 +1,58 @@
+    .header {
+        background-color: #f6f9f8;
+        box-shadow: 0 4px 4px rgba(54, 145, 190, 0.1);
+        padding: 12px 0;
+        border-radius: 10px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .college-logo {
+        width: 140px;
+        height: auto;
+        margin-left: 0px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .heading-primary {
+        font-size: 34px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .heading-secondary {
+        font-size: 28px;
+        color: #143;
+        transition: color 0.3s ease-in-out;
+    }
+
+    .header:hover {
+        background-color: #f0f0f0;
+    }
+
+    .college-logo:hover {
+        transform: scale(1.1);
+    }
+
+    .heading-primary:hover {
+        color: #007bff;
+        cursor: pointer;
+    }
+
+    .heading-secondary:hover {
+        color: #0062cc;
+        cursor: pointer;
+    }
